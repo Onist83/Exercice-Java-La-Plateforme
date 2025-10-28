@@ -10,10 +10,10 @@ public class exercices {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write a number");
         int number = scanner.nextInt();
-        if (number % 2 == 0) {
-            System.out.println("Number pair");
-        } else if (number == 0) {
+        if (number == 0) {
             System.out.println("Number nul");
+        } else if (number % 2 == 0) {
+            System.out.println("Number pair");
         } else {
             System.out.println("Number impair");
         }
@@ -54,15 +54,44 @@ public class exercices {
             System.out.println("The number one is bigger");
         } else if (firstNumber < secondNumber) {
             System.out.println("The number one is smaller");
-        } else
+        } else {
             System.out.println("The numbers are equal");
         }
 
 
         /* Exercies Boucles*/
 
-    /*Exercice 1*/
+        /*Exercice 1*/
+        for (int i = 0; i < 11; i++) {
+            System.out.println(i);
+        }
 
+        /*Exercice 2*/
+        int countdown = 10;
+        while (countdown > 0) {
+            System.out.println(countdown);
+            countdown--;
+        }
+        System.out.println("Zéro");
+
+        /* OR */
+
+        for (int i = 10; i > -1; i--) {
+            System.out.println(i);
+        }
+
+        /*Exercice 3 */
+        for (int i = 0; i <= 20; i = i + 2) {
+            System.out.println(i);
+        }
+
+        /*Exercice 4 */
+        int somme = 0;
+        for (int i = 1; i <= 100; i++) {
+            somme = somme + i;
+        }
+        System.out.println("La somme est " + somme);
+    }
 
 
 
