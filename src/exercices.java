@@ -84,11 +84,20 @@ public class exercices {
         for (int i = 0; i <= 20; i = i + 2) {
             System.out.println(i);
         }
+        /* correction
+        for (int i = 0; i <= 20; i++) {
+                i(%2==0){
+            System.out.println(i);
+            }
+           }
+         */
 
         /*Exercice 4 */
         int somme = 0;
         for (int i = 1; i <= 100; i++) {
             somme = somme + i;
+            /* idem que la ligne98
+                somme+ = i */
         }
         System.out.println("La somme est " + somme);
     }
