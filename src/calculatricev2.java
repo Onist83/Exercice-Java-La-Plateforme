@@ -12,8 +12,8 @@ public class calculatricev2 {
         System.out.println("Choice 5: Exit");
 
         int choice = myscanner.nextInt();
-        int firstNumber;
-        int secondNumber;
+        double firstNumber;
+        double secondNumber;
 
         while (run) {
             switch (choice) {
